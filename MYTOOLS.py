@@ -12,6 +12,7 @@ pi_decimal_part = pi_str[2:102]  # Pega as 100 primeiras casas decimais
 
 # Converte a string das casas decimais para um inteiro
 PI_INT = int(pi_decimal_part)
+print(PI_INT)
 
 """E_INT"""
 # Configura a precisão para 100 casas decimais
